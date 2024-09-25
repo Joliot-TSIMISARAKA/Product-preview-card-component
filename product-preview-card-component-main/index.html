@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Frontend Mentor | Product preview card component</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="card">
+                    <header class="card__header">
+                        <picture class="header__picture">
+                            <source
+                                class="header__sourceset"
+                                srcset="images/image-product-desktop.jpg"
+                                media="(min-width: 600px)"
+                            />
+                            <img
+                                class="header__image"
+                                src="images/image-product-mobile.jpg"
+                                alt="A close shot of an elegant, square-shaped bottle of CHANEL perfume, in either side of which lay some a branch of leaves each"
+                            />
+                        </picture>
+                    </header>
+                    <div class="card__body">
+                        <section class="content">
+                            <p class="content__tag">PERFUME</p>
+                            <h2 class="content__title">
+                                Gabrielle Essence Eau de Parfum
+                            </h2>
+                            <p class="content__text">
+                                A floral, solar and voluptuous interpretation
+                                composed by Olivier Polge, Perfumer-Creator for
+                                the House of CHANEL.
+                            </p>
+                        </section>
+                        <section class="price">
+                            <p class="price__now">$149.99</p>
+                            <p class="price__old">$169.99</p>
+                        </section>
+                        <button class="cart">
+                            <img
+                                class="cart__icon"
+                                src="images/icon-cart.svg"
+                                alt=""
+                            />
+                            <p class="cart__text">Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
