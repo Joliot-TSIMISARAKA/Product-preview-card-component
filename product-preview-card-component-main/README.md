@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Front-end mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-flexbox-GGB_DP7fBP)
+-   Live Site URL: [Vercel](https://product-preview-card-component-nu-rose.vercel.app/)
 
 ## My process
 
@@ -66,5 +66,3 @@ I'm going to dive deeper intot responsive techniques
 
 -   Frontend Mentor - [@Joliot-TSIMISARAKA](https://www.frontendmentor.io/profile/Joliot-TSIMISARAKA)
 -   Twitter - [@JoliotSitraka](https://x.com/JoliotSitraka)
-
-
