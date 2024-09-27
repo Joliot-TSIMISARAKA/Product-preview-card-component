@@ -43,6 +43,7 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
+/*The picture element is not needed anymore but I have not removed it from the CSS yet.*/
 img,
 picture {
     max-width: 100%;
@@ -211,5 +212,12 @@ body {
 
     .cart__icon {
         transform: scale(1.5);
+    }
+}
+
+/*This is media query which ensures that when the width of the screen is less than 600px, the source of the image is changed - Zainy*/
+@media only screen and (max-width: 600px) {
+    .header-image{
+        content: url("images/image-product-mobile.jpg");
     }
 }
